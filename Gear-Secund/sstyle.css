@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    
+    background: url(./Assetss/fundo\ 2.png);
+    background-size: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+img{
+    position: relative;
+    display: flex;
+    height: 819px;
+    width: 600px;
+    box-shadow: rgb(0, 0, 0) 10px 0.5px 30px;
+    object-fit: cover;
+}
+
+
+
+.Titulo h2{
+    text-shadow:rgb(0, 0, 0) 10px 1px 20px;
+    text-align: left;
+    font-style:oblique;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: -740px;
+    margin-left: 700px;
+    position: relative;
+}
+
+.Titulo p{
+    text-align: left;
+    position: relative;
+    font-size: 17px;
+    text-shadow:rgb(0, 0, 0) 10px 1px 12px;
+    color: rgb(221, 221, 221);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30%;
+    top: -410px;
+    left: 260px;
+}
