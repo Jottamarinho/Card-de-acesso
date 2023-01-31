@@ -6,19 +6,22 @@
 }
 
 body{
+    background-color: black;
+    background: url(./assets/fundo.png);
+    background-size: 100%;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.884);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .card{
     width:300px;
     height: 400px;
     background-color:rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: rgb(255, 166, 0) 10px 10px;
+    box-shadow: orange 10px 10px;
     margin:0 auto;
     text-align: center;
 }
@@ -87,9 +90,18 @@ body{
     gap: 5px;
     width: 50px;
     height: 30px;
-    transition: 0.5s ease;
+   
 }
 
-.redes:hover{
-    transform: translateY(-10px);
-}
+.redes .git{ transition: 0.5s ease;}
+.git:hover{ transform: translateY(-10px);}
+
+
+
+.redes .insta{ transition: 0.5s ease;}
+.insta:hover{ transform: translateY(-10px);}
+
+
+.redes .linkedin{ transition: 0.5s ease;}
+.linkedin:hover{ transform: translateY(-10px);}
+
